@@ -1,6 +1,6 @@
 # Zurutech Solution: landing page banner & bunting
 
-Landing page jualan banner tarpaulin, bunting X-stand dan roll-up, dengan checkout ikut saiz, kos pos Semenanjung / Sabah-Sarawak, dan bayaran ToyyibPay (FPX, kad, e-wallet). Dihoskan di **Cloudflare Pages**.
+Landing page jualan banner tarpaulin, banner T-stand dan bunting roll-up, dengan checkout ikut saiz, kos pos Semenanjung / Sabah-Sarawak, dan bayaran ToyyibPay (FPX, kad, e-wallet). Dihoskan di **Cloudflare Pages**.
 
 ## Struktur
 | Laluan | Fungsi |

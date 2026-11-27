@@ -11,7 +11,7 @@
 <rect x="560" y="120" width="160" height="110" rx="6" fill="#fff" stroke="#d9cfc0"/><rect x="575" y="135" width="130" height="80" fill="#a8d5c9"/>
 <ellipse cx="640" cy="520" rx="70" ry="10" fill="#000" opacity=".12"/><rect x="600" y="400" width="80" height="120" rx="10" fill="#4a8f5b"/><circle cx="640" cy="380" r="55" fill="#5fae6f"/><circle cx="610" cy="360" r="35" fill="#6cbd7c"/>
 <ellipse cx="330" cy="545" rx="150" ry="14" fill="#000" opacity=".18"/>
-<g stroke="#2d2d2d" stroke-width="5" stroke-linecap="round"><path d="M215 548 L445 60"/><path d="M445 548 L215 60"/></g>
+<g stroke="#2d2d2d" stroke-linecap="round"><path d="M330 56 V545" stroke-width="6"/><path d="M212 56 H448" stroke-width="7"/><path d="M330 545 L280 552 M330 545 L380 552 M330 545 L330 556" stroke-width="5"/></g>
 <g filter="url(#sh)">
 <rect x="225" y="62" width="210" height="476" fill="url(#bt)"/>
 </g>
@@ -30,5 +30,5 @@
 </g>
 <rect x="245" y="440" width="170" height="54" rx="27" fill="#FF5A1F"/>
 <text x="330" y="474" text-anchor="middle" font-family="Arial Black,Arial,sans-serif" font-size="17" fill="#fff" font-weight="900">012-345 6789</text>
-<g fill="#2d2d2d"><circle cx="225" cy="62" r="5"/><circle cx="435" cy="62" r="5"/><circle cx="225" cy="538" r="5"/><circle cx="435" cy="538" r="5"/></g>
+<g fill="#2d2d2d"><rect x="222" y="54" width="10" height="14" rx="2"/><rect x="428" y="54" width="10" height="14" rx="2"/></g>
 </svg>

@@ -7,12 +7,11 @@ export const PRODUCTS = {
     minPrice: 25,
     note: "Tarpaulin 380gsm, siap eyelet & tali",
   },
-  xstand: {
-    name: "Bunting X-Stand",
+  tstand: {
+    name: "Banner T-Stand",
     type: "fixed",
     variants: {
-      "2x5": { label: "2 x 5 kaki + stand", price: 45 },
-      "2x5-print": { label: "2 x 5 kaki cetak sahaja", price: 25 },
+      "2x5": { label: "2 x 5 kaki (cetak sahaja, tanpa stand)", price: 25 },
     },
   },
   rollup: {
