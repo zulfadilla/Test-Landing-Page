@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfe6f5"/><stop offset="1" stop-color="#eef6fb"/></linearGradient>
+<linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e9e2d6"/><stop offset="1" stop-color="#d9d0c1"/></linearGradient>
+<linearGradient id="bn" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF5A1F"/><stop offset="1" stop-color="#E6007E"/></linearGradient>
+<linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".18"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-opacity=".25"/></filter>
+</defs>
+<rect width="800" height="600" fill="url(#sky)"/>
+<rect x="60" y="90" width="680" height="510" fill="url(#wall)"/>
+<rect x="40" y="70" width="720" height="34" fill="#8b7d6b"/>
+<g fill="#b9ad9b" opacity=".5"><rect x="60" y="104" width="680" height="3"/><rect x="60" y="400" width="680" height="3"/></g>
+<rect x="110" y="420" width="250" height="180" fill="#3b4a5c"/><rect x="120" y="430" width="230" height="170" fill="#9fc3d8" opacity=".7"/>
+<rect x="440" y="420" width="250" height="180" fill="#3b4a5c"/><rect x="450" y="430" width="110" height="170" fill="#9fc3d8" opacity=".7"/><rect x="570" y="430" width="110" height="170" fill="#9fc3d8" opacity=".7"/>
+<rect x="0" y="585" width="800" height="15" fill="#6d6458"/>
+<g filter="url(#sh)">
+<path d="M100 140 Q400 132 700 140 L700 370 Q400 362 100 370Z" fill="url(#bn)"/>
+<path d="M100 140 Q400 132 700 140 L700 370 Q400 362 100 370Z" fill="url(#gloss)"/>
+</g>
+<g fill="#fff" font-family="Arial Black,Arial,sans-serif" text-anchor="middle">
+<text x="400" y="200" font-size="30" font-weight="900" letter-spacing="6">GRAND OPENING</text>
+<text x="400" y="275" font-size="72" font-weight="900">DISKAUN 50%</text>
+<text x="400" y="318" font-size="22" font-weight="700" opacity=".95">Kedai Runcit Maju Jaya · 1–7 Disember</text>
+</g>
+<rect x="300" y="332" width="200" height="4" rx="2" fill="#FFC20E"/>
+<g fill="#d9d9d9" stroke="#777" stroke-width="2"><circle cx="112" cy="152" r="6"/><circle cx="688" cy="152" r="6"/><circle cx="112" cy="358" r="6"/><circle cx="688" cy="358" r="6"/><circle cx="400" cy="146" r="6"/><circle cx="400" cy="354" r="6"/></g>
+<g stroke="#5b5145" stroke-width="2" fill="none"><path d="M112 152 L86 120"/><path d="M688 152 L714 120"/><path d="M112 358 L86 392"/><path d="M688 358 L714 392"/></g>
+</svg>

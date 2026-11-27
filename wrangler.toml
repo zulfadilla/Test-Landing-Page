@@ -1,0 +1,9 @@
+name = "zurutech-landing"
+pages_build_output_dir = "public"
+compatibility_date = "2026-11-01"
+
+# Pilihan: simpan status order dalam Cloudflare KV.
+# Cipta namespace (Workers & Pages > KV), kemudian buka komen dan isi id:
+# [[kv_namespaces]]
+# binding = "ORDERS"
+# id = "ISI_ID_KV_DI_SINI"

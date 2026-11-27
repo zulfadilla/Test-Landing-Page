@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7cc4f0"/><stop offset="1" stop-color="#d7eefb"/></linearGradient>
+<linearGradient id="bn" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0E7C66"/><stop offset="1" stop-color="#13204A"/></linearGradient>
+<filter id="sh"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-opacity=".25"/></filter>
+</defs>
+<rect width="800" height="600" fill="url(#sky)"/>
+<circle cx="680" cy="90" r="40" fill="#fff6c7"/>
+<path d="M0 420 Q200 380 400 410 T800 400 V600 H0Z" fill="#7cc36b"/>
+<path d="M0 470 Q250 440 500 465 T800 455 V600 H0Z" fill="#5daa52"/>
+<g fill="#2e7d32"><circle cx="70" cy="390" r="50"/><circle cx="120" cy="370" r="40"/><circle cx="730" cy="380" r="55"/></g>
+<rect x="88" y="360" width="10" height="70" fill="#6b4a2b"/><rect x="726" y="370" width="10" height="70" fill="#6b4a2b"/>
+<g fill="#9aa1ab"><rect x="96" y="150" width="10" height="390"/><rect x="694" y="150" width="10" height="390"/></g>
+<g filter="url(#sh)"><rect x="110" y="170" width="580" height="210" fill="url(#bn)"/></g>
+<g font-family="Arial Black,Arial,sans-serif" text-anchor="middle" fill="#fff">
+<text x="400" y="225" font-size="20" letter-spacing="6" fill="#FFC20E">SELAMAT DATANG KE</text>
+<text x="400" y="290" font-size="56" font-weight="900">HARI KELUARGA</text>
+<text x="400" y="340" font-size="26" font-weight="700">Taman Seri Murni 2026</text>
+</g>
+<g stroke="#fff" stroke-width="3"><path d="M106 182 H110"/><path d="M106 368 H110"/><path d="M690 182 H694"/><path d="M690 368 H694"/></g>
+<g fill="#eee" stroke="#666" stroke-width="2"><circle cx="122" cy="182" r="5"/><circle cx="678" cy="182" r="5"/><circle cx="122" cy="368" r="5"/><circle cx="678" cy="368" r="5"/></g>
+<g><path d="M150 520 l20 -40 l20 40z" fill="#FF5A1F"/><path d="M600 525 l18 -36 l18 36z" fill="#E6007E"/><path d="M380 530 l16 -32 l16 32z" fill="#FFC20E"/></g>
+</svg>
