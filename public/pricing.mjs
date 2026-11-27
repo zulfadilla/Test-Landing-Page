@@ -19,8 +19,7 @@ export const PRODUCTS = {
     name: "Bunting Roll-Up",
     type: "fixed",
     variants: {
-      "2.85x6.5": { label: "2.85 x 6.5 kaki + stand & beg", price: 120 },
-      "2.85x6.5-print": { label: "2.85 x 6.5 kaki cetak sahaja", price: 45 },
+      "2.85x6.5": { label: "2.85 x 6.5 kaki (pakej cetak + stand + beg)", price: 120 },
     },
   },
 };
