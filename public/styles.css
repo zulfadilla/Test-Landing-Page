@@ -169,3 +169,39 @@ details p{color:var(--muted);margin:0 0 16px}
 .ty-ico.fail{background:#ffe5e0;color:#d93025}
 .ty-ref{background:var(--alt);border-radius:12px;padding:12px;font-weight:700;color:var(--navy);margin:16px 0}
 .demo{background:#fff8e1;border:1px solid #ffe08a;color:#7a5b00;border-radius:10px;padding:10px 12px;font-size:.85rem;margin-top:14px}
+
+/* ===== Tema gelap: latar gelap, tulisan cerah ===== */
+:root{--bg:#0B1020;--surf:#141B31;--surf2:#1B2440;--line:#2A3456;--ink:#E9EDF7;--muted:#A6AFC8;--head:#FFFFFF;--alt:#0F1528}
+html{color-scheme:dark}
+body{background:var(--bg);color:var(--ink)}
+h1,h2,h3,legend,label,summary,.from,.quotes cite,.ty-ref,.ticks{color:var(--head)}
+.nav{background:rgba(11,16,32,.88);border-bottom-color:var(--line)}
+.links a{color:var(--muted)}.links a:hover{color:#fff}
+.hero{background:radial-gradient(900px 480px at 85% 0%,rgba(255,90,31,.22) 0,transparent 60%),radial-gradient(700px 400px at 0% 100%,rgba(0,184,217,.12) 0,transparent 60%),var(--bg)}
+h1{font-size:clamp(2.7rem,7.2vw,4.8rem);font-weight:800;line-height:1.02;letter-spacing:-.03em}
+.hero h1{max-width:12ch}
+.lead{color:var(--muted);font-size:1.18rem}
+.pill{background:var(--surf);border-color:var(--line);color:var(--ink);box-shadow:none}
+.price-tag{background:var(--surf2);border:1px solid var(--line)}
+.btn-ghost{color:#fff;box-shadow:inset 0 0 0 2px rgba(255,255,255,.7)}
+.btn-ghost:hover{background:#fff;color:var(--bg)}
+.hero-float{border-color:var(--surf2)}
+.sec-alt{background:var(--alt)}
+.card,.feat,.gallery figure,.quotes blockquote,.ship,fieldset,details,.ty-card{background:var(--surf);border-color:var(--line)}
+.ico{background:rgba(255,90,31,.14)}
+.steps li{border-color:var(--line);background:var(--surf)}
+.steps b{background:var(--orange)}
+.ship th{background:var(--surf2)}
+.ship td,.ship th{border-bottom-color:var(--line)}
+.ship small{color:#4ade80}
+.tag{background:var(--surf2);border-color:var(--line);color:var(--muted)}
+.checkout-sec{background:var(--bg)}
+input,select,textarea{background:var(--bg);color:var(--ink);border-color:#36416a}
+input::placeholder,textarea::placeholder{color:#6f7a99}
+.seg span{border-color:#36416a;color:var(--ink)}
+.seg input:checked+span{background:rgba(255,90,31,.16);color:#ffb08f}
+.summary{background:linear-gradient(160deg,#1d2a55,#141B31);border:1px solid var(--line)}
+.foot{background:#070B17;border-top:1px solid var(--line)}
+.ty-ref{background:var(--surf2)}
+.ty-ico{background:rgba(24,160,88,.18);color:#4ade80}
+.demo{background:rgba(255,194,14,.12);border-color:rgba(255,194,14,.4);color:#ffd970}

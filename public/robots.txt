@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://test-landing-page-5zr.pages.dev/sitemap.xml
